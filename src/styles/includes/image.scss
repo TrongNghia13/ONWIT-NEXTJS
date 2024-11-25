@@ -1,0 +1,25 @@
+.absoluteContainImage {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain;
+}
+
+.absoluteImageBg {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-cover;
+}
+
+.absoluteImage {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+
+.absoluteVideo {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-cover;
+}
+
+@keyframes spinImage {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinImage {
+  animation: spinImage 60s linear infinite;
+}

@@ -1,0 +1,83 @@
+.dynamicContents {
+  @apply text-textColor;
+
+  p {
+    //@apply desktopBodyM20;
+  }
+
+  h2, h3, h4, h5, h6 {
+    @apply mb-[0.3em];
+  }
+
+  h1 {
+    //@apply desktopHeadingH4;
+  }
+
+  h2 {
+    //@apply desktopHeadingH5;
+  }
+
+  h3 {
+    //@apply desktopHeadingH6;
+  }
+
+  h4 {
+    //@apply desktopHeadingH7;
+  }
+
+  :not(.buttonWrapper) a {
+    @apply text-mainColor hover:text-icon underline;
+  }
+
+  .tableWrapper {
+    h1, h2, h3, h4, h5, h6 {
+      @apply text-mainColor;
+    }
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 36px;
+  }
+
+  ul, ol {
+    li:not(:last-child) {
+      @apply mb-8px;
+    }
+  }
+
+  p:not(:last-child),
+  ol:not(:last-child),
+  ul:not(:last-child) {
+    @apply mb-24px;
+  }
+
+  p + hr {
+    @apply mt-8px;
+    // 36px - 24px
+  }
+
+  figure:not(:last-child) {
+    @apply mb-24px;
+  }
+
+  ol {
+    list-style: decimal;
+    padding-left: 36px;
+  }
+
+
+  table {
+    td, th {
+      @apply border border-mainColor p-16px;
+    }
+
+    th {
+      //@apply text-mainColor desktopHeadingH7;
+    }
+  }
+
+  hr {
+    @apply border-textColor my-[36px];
+  }
+}

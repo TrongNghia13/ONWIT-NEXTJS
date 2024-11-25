@@ -1,0 +1,20 @@
+.moduleWrapper {
+  
+  :global {
+    .hoverNewPart {
+      transition: all ease-in-out 0.5s;
+      background-color: #FFF;
+      background-size: 400% 400%;
+      background-position: 100% 100%;
+    }
+    
+    .hoverNewPart:hover {
+      background-size: 100% 100%;
+      background: linear-gradient(134deg, #F4F8FB
+      -26.35%, #e7effb 77.57%);
+      
+    }
+   
+    
+  }
+}

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc5defac-7031-494a-b08a-1daecf2664b3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[...slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[...slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[...slug]/templates/StandardPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[...slug]/templates/StandardPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/AutoHeightWithTrigger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/AutoHeightWithTrigger.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/BackToTop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/BackToTop.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/BlogCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/BlogCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/CommonButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/CommonButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/DynamicContents.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/DynamicContents.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/Pagination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/RecaptchaEmail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/RecaptchaEmail.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/RecaptchaModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/RecaptchaModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/Skeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/Skeleton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/Sliders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/Sliders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/Tabs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/Tabs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_shared/WrapperImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_shared/WrapperImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blogs/BlogsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blogs/BlogsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blogs/[slug]/BlogDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blogs/[slug]/BlogDetail.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blogs/[slug]/_c/BlogDetailContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blogs/[slug]/_c/BlogDetailContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blogs/[slug]/_c/BlogDetailHeading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blogs/[slug]/_c/BlogDetailHeading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blogs/[slug]/_c/RelatedBlogs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blogs/[slug]/_c/RelatedBlogs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blogs/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blogs/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blogs/_c/BlogsFilterAndContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blogs/_c/BlogsFilterAndContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blogs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blogs/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contact-us/ContactUsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact-us/ContactUsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contact-us/_c/ContactUsForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact-us/_c/ContactUsForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contact-us/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact-us/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/demo/DemoPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/demo/DemoPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/demo/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/demo/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/error.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/error.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/ErrorLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/ErrorLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/GeneralLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/GeneralLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/sitemap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sitemap.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/previous.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/previous.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constant/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constant/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constant/env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constant/env.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/helper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/logger.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/og.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/og.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/apiService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/apiService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/getStrapiData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/getStrapiData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/metaTagService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/metaTagService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/includes/blog-block-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/includes/dynamic-contents.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/includes/contact-us.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/includes/slide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/includes/svg.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/nextauth/next-auth.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/strapi/StrapiCurrentUserT.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/strapi/StrapiError.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/strapi/StrapiFetchOptions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/strapi/StrapiParameters.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/strapi/User.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/validationRules.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validationRules.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2lxxbI8unFEBtJshpcraljYpaMM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.16.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.16.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Moha-Projects/Ownit/Ownit-Nextjs/public/favicon&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Moha-Projects\\FindinA\\Findina-Frontend-Nextjs\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Moha-Projects\\Ownit\\Ownit-Nextjs\\node_modules\\typescript\\lib&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Moha-Projects\Ownit\Ownit-Nextjs\public\favicon" />
+      <recent name="D:\Moha-Projects\Ownit\Ownit-Nextjs" />
+      <recent name="D:\Moha-Projects\Lost-Dogs-Moworks\Lost-dogs-frontend\src\assets\fonts" />
+      <recent name="D:\Moha-Projects\Lost-Dogs-Moworks\Lost-dogs-frontend\src\app\demo" />
+      <recent name="D:\Moha-Projects\Lost-Dogs-Moworks\Lost-dogs-frontend\src\app\_shared" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Moha-Projects\Lost-Dogs-Moworks\Lost-dogs-frontend\src\app" />
+      <recent name="D:\Moha-Projects\Lost-Dogs-Moworks\Lost-dogs-frontend\src\assets\images" />
+      <recent name="D:\Moha-Projects\Lost-Dogs-Moworks\Lost-dogs-frontend\src\app\_blocks" />
+      <recent name="D:\Moha-Projects\FindinA\Findina-Publicsite-Nextjs\src\app" />
+      <recent name="D:\Moha-Projects\FindinA\Findina-Publicsite-Nextjs\src\app\insights-hub" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.dev" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc5defac-7031-494a-b08a-1daecf2664b3" name="Changes" comment="" />
+      <created>1726135598556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726135598556</updated>
+      <workItem from="1726135600077" duration="658000" />
+      <workItem from="1726151723810" duration="14555000" />
+      <workItem from="1726198441605" duration="589000" />
+      <workItem from="1726222688334" duration="1706000" />
+      <workItem from="1726224430758" duration="1723000" />
+      <workItem from="1726410224629" duration="16140000" />
+      <workItem from="1726474432714" duration="11435000" />
+      <workItem from="1726545563036" duration="18351000" />
+      <workItem from="1726586488014" duration="12718000" />
+      <workItem from="1726628339705" duration="9779000" />
+      <workItem from="1726706258696" duration="97000" />
+      <workItem from="1727174657717" duration="2271000" />
+      <workItem from="1727198311120" duration="9356000" />
+      <workItem from="1727240391816" duration="4136000" />
+      <workItem from="1727337729725" duration="9058000" />
+      <workItem from="1727369235599" duration="7076000" />
+      <workItem from="1727404147075" duration="10558000" />
+      <workItem from="1727501873914" duration="2164000" />
+      <workItem from="1727515836211" duration="753000" />
+      <workItem from="1727539963401" duration="21909000" />
+      <workItem from="1727629961145" duration="9017000" />
+      <workItem from="1727662813356" duration="8273000" />
+      <workItem from="1727680839388" duration="9151000" />
+      <workItem from="1727712933211" duration="10623000" />
+      <workItem from="1727751617394" duration="16389000" />
+      <workItem from="1727793487835" duration="15981000" />
+      <workItem from="1727842626224" duration="19139000" />
+      <workItem from="1727887411842" duration="4238000" />
+      <workItem from="1727924285734" duration="8657000" />
+      <workItem from="1727982287418" duration="1629000" />
+      <workItem from="1728012555183" duration="7739000" />
+      <workItem from="1728035842835" duration="3687000" />
+      <workItem from="1728067635985" duration="14284000" />
+      <workItem from="1728135911425" duration="2177000" />
+      <workItem from="1728151769438" duration="31726000" />
+      <workItem from="1728283142648" duration="5975000" />
+      <workItem from="1728311422738" duration="11963000" />
+      <workItem from="1728356822865" duration="11478000" />
+      <workItem from="1728396836593" duration="5609000" />
+      <workItem from="1728444489020" duration="12390000" />
+      <workItem from="1728498317154" duration="114000" />
+      <workItem from="1728530007505" duration="15827000" />
+      <workItem from="1728571815718" duration="584000" />
+      <workItem from="1728574443145" duration="11464000" />
+      <workItem from="1728613525622" duration="15211000" />
+      <workItem from="1728841546435" duration="8459000" />
+      <workItem from="1731409125873" duration="2977000" />
+      <workItem from="1731428688803" duration="3054000" />
+      <workItem from="1731432172612" duration="2045000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

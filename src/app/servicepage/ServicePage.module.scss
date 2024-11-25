@@ -1,0 +1,25 @@
+.moduleWrapper {
+  :global {
+    .blockSlider {
+      .swiper-initialized {
+        overflow: visible;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
+      }
+    }
+
+    .imgHidden {
+      opacity: 0;
+
+      &.activeLeft {
+        animation: fade-left linear 1.5s forwards;
+      }
+
+      &.activeRight {
+        animation: fade-right linear 1.5s forwards;
+      }
+    }
+  }
+}

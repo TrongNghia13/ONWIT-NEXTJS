@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@import './includes/family-fonts';
+@import './includes/typos-fonts';
+@import './includes/flex';
+@import './includes/dynamic-contents.scss';
+@import './includes/animation.scss';
+@import './includes/hover.scss';
+@import './includes/image.scss';
+@import './includes/scroll.scss';
+@import './includes/btn.scss';
+
+@layer utilities {
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal; /* Tùy chỉnh theo trọng lượng font bạn có */
+  font-style: normal;
+}
+
+html {
+  //height: 100%;
+}
+
+body {
+  //height: 100%;
+  background: white;
+  font-family: 'Montserrat';
+  overflow-x: hidden;
+}
+
+.extraContainer {
+  @apply py-0px 768:px-[64px] 1440:px-[110px] mx-auto max-w-[1588px] px-[32px];
+}
+
+.mainContainer {
+  @apply py-0px 768:px-[64px] 1440:px-[80px] mx-auto max-w-[1440px] px-[32px];
+}
+
+.sliderOverBox {
+  @apply 768:px-[64px] 1440:px-[80px] 768:mx-[-64px] 1440:mx-[-80px] mx-[-32px] px-[32px];
+}
+
+.smallContainer {
+  @apply py-0px 768:px-[64px] 1440:px-[80px] mx-auto max-w-[1088px] px-[32px];
+}
+
+.hiddenScrollBar::-webkit-scrollbar {
+  width: 0px;
+}
+
+.hiddenScrollBar {
+  scrollbar-width: none;
+}
+
+////Custom scrollbar
+///* Width and Color of the scrollbar track */
+//::-webkit-scrollbar {
+//  width: 15px;
+//  background-color: rgba(201, 201, 201, 0.54);
+//}
+//
+///* Color and style of the scrollbar thumb (the draggable part) */
+//::-webkit-scrollbar-thumb {
+//  background-color: rgb(183, 183, 183);
+//  border-radius: 0;
+//}
+//
+///* On hover, the scrollbar thumb will be a little darker */
+//::-webkit-scrollbar-thumb:hover {
+//  @apply bg-icon bg-opacity-[0.6];
+//}
+
+*:focus {
+  outline: none !important;
+}
+
+.scaleImageOnHover img {
+  scale: 1;
+  @apply transition-all duration-500;
+}
+
+.scaleImageOnHover {
+  @apply transition-all duration-500;
+}
+
+.scaleImageOnHover:hover .absoluteImageBg {
+  height: 110% !important;
+  width: 110% !important;
+}
+
+//.scaleImageOnHover:hover img {
+//  scale: 1.1;
+//  top: 60%;
+//  left: 55%;
+//}
+
+@keyframes fadeInOpacity {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutOpacity {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.25;
+  }
+}
+
+.group .reduceOpacityOnHover {
+  opacity: 0; /* Start fully visible */
+  animation: fadeInOpacity 1s ease-in-out forwards; /* Apply the animation */
+}
+
+.group:hover .reduceOpacityOnHover {
+  animation: fadeOutOpacity 1s ease-in-out forwards;
+}
+
+// Reverse
+.group .increaseOpacityOnHover {
+  opacity: 1; /* Start fully visible */
+  animation: fadeOutOpacity 1s ease-in-out forwards; /* Apply the animation */
+}
+
+.group:hover .increaseOpacityOnHover {
+  animation: fadeInOpacity 1s ease-in-out forwards;
+}
+
+.wrapperAutoWidthSlider {
+  .swiper-slide {
+    width: auto !important;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .swiper-initialized {
+    overflow: visible;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
+.wrapperHideNavigationSlider {
+  .navigation {
+    display: none !important;
+  }
+}
+
+.wrapperOpacityIfNotActiveSlider {
+  .swiper-slide {
+    transition: all 0.5s;
+  }
+
+  .swiper-slide:not(.swiper-slide-active) {
+    opacity: 0.5;
+    scale: 0.9;
+  }
+}
+
+.wrapperNavigationOnTopRight {
+  position: relative;
+
+  .navigation {
+    position: absolute;
+    top: -121px;
+    right: 0;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,25 @@
+.moduleWrapper {
+  :global {
+    .slider {
+      position: relative;
+      & .slide {
+        position: absolute;
+
+        &.left {
+          transform: translateX(0);
+          &.active {
+            z-index: 10;
+            animation: slideLeft ease-in 1s forwards;
+          }
+        }
+        &.right {
+          &.unactive {
+            z-index: 1;
+            transform: translateX(100%);
+            animation: slideRight ease-out 1s forwards;
+          }
+        }
+      }
+    }
+  }
+}

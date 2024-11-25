@@ -1,0 +1,27 @@
+.moduleWrapper {
+  :global {
+    @media screen and (min-width: 968px) {
+      .services {
+        &__item {
+          justify-content: flex-start;
+
+          &--start {
+            flex-direction: row-reverse;
+          }
+        }
+      }
+      .btnmore {
+        transition: all linear 0.5s;
+        & > span {
+          transition: all linear 0.5s;
+        }
+        &:hover {
+          opacity: 0.8;
+        }
+        &:hover > span {
+          padding-left: 8px;
+        }
+      }
+    }
+  }
+}

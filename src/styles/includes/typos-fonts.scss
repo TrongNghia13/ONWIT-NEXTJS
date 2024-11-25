@@ -1,0 +1,374 @@
+@layer utilities {
+  .desktopHeadingXLDark {
+    /* Desktop/Heading/XL Dark */
+    font-family: 'PP Right Grotesk';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80%;
+    /* 80px */
+    letter-spacing: -2px;
+    text-transform: capitalize;
+  }
+
+  .desktopContentMBook {
+    /* Desktop/Content/M Book */
+    font-family: 'PP Neue Montreal';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 24px */
+  }
+
+  .mobileHeadingXLDark {
+    /* Mobile/Heading/XL Dark */
+    font-family: 'PP Right Grotesk';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80%;
+    /* 51.2px */
+    letter-spacing: -1.28px;
+    text-transform: capitalize;
+  }
+
+  .destopDisplayBoldXL {
+    font-family: 'Montserrat';
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    /* 100% */
+  }
+
+  .destopMainCTA {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+    text-transform: uppercase;
+  }
+
+  .desktopHeadlineSemibolM {
+    font-family: 'Montserrat';
+    /* Headline/Semibold/M */
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 107.692% */
+  }
+
+  .desktopHeadlineSemiboldXS {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 18px */
+  }
+
+  .desktopHeadlineSemiboldXL {
+    font-family: 'Montserrat';
+    /* Headline/Semibold/XL */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 40px */
+  }
+
+  .desktopBodyRegM {
+    font-family: 'Montserrat';
+    /* Body/Reg/M */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  .desktopBodyRegL {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 144.444% */
+  }
+
+  .desktopBodySemiboldM {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 112.5% */
+  }
+
+  .desktopHeadlineSemiboldS {
+    font-family: 'Montserrat';
+    /* Headline/Semibold/S */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 22px */
+  }
+
+  .desktopBodyRegS {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+  }
+
+  .desktopBodySemiboldM {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 112.5% */
+  }
+
+  .desktopBodyMedS {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .desktopBodyMedXS {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    /* 116.667% */
+  }
+
+  .desktopMainCTA {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+    text-transform: uppercase;
+  }
+
+  .desktopBodyMedM {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+  }
+
+  .desktopBodyMedM {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+  }
+
+  .desktopReviewsBold {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .desktopReviewsReg {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .desktopDisplaySemiboldM {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+  }
+
+  .desktopHeadlineSemiboldM {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 107.692% */
+  }
+
+  .desktopDisplayBoldM {
+    /* Display/Bold/M */
+    font-family: 'Montserrat';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    /* 100% */
+  }
+
+  .desktopHeadlineSemiboldL {
+    /* Headline/Semibold/L */
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 111.111% */
+  }
+
+  .desktopHeadlineRegS {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 127.273% */
+  }
+  .desktopBodyMedL {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .mobileDisplayBoldXS {
+    /* Display/Bold/XS */
+    font-family: 'Montserrat';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    /* 100% */
+  }
+
+  .mobileMainCTA {
+    /* Main CTA */
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+    text-transform: uppercase;
+  }
+
+  .desktopBodyRegMLead {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+  }
+
+  .desktopBodySemiboldS {
+    /* Body/Semibold/S */
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+  }
+
+  /* 114.286% */
+  .mobileDisplaySemiboldS {
+    /* Display/Semibold/S */
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 100% */
+  }
+
+  .mobileBodyRegM {
+    /* Body/Reg/M */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  .mobileHeadlineBoldM {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    /* 130.769% */
+  }
+
+  .mobileDisplaySemiboldS {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 100% */
+  }
+
+  .mobileHeadlineSemiboldS {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 22px */
+  }
+
+  .mobileHeadlineBoldM {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    /* 130.769% */
+  }
+
+  .mobileBodySemiboldM {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 112.5% */
+  }
+
+  .mobileDisplaySemiboldS {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 100% */
+  }
+
+  .mobileBodyRegS {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+  }
+}

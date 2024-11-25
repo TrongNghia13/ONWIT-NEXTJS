@@ -1,0 +1,118 @@
+.moduleWrapper {
+
+  :global {
+    .features_content_detail {
+      position: relative;
+      overflow: hidden;
+    
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0; /* Ẩn hình ảnh mặc định */
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        transform: scale(1.1); 
+        z-index: 1;
+      }
+    
+      &:hover {
+        opacity: 1; 
+        transform: scale(1); 
+        background-image: url('../../assets/images/Feature.webp');
+        svg{
+          opacity: 0;
+        }
+        .content_detail{
+          opacity: 0;
+
+        }
+      }
+    
+      .contetn {
+        position: relative;
+        z-index: 2; 
+      }
+      
+    }
+    .features_content_detail1 {
+      position: relative;
+      overflow: hidden;
+    
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0; /* Ẩn hình ảnh mặc định */
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        transform: scale(1.1); 
+        z-index: 1;
+      }
+    
+      &:hover {
+        opacity: 1; 
+        transform: scale(1); 
+        background-image: url('../../assets/images/FeatureB.webp');
+        svg{
+          opacity: 0;
+        }
+        .content_detail{
+          opacity: 0;
+        }
+        
+      }
+    
+      .contetn {
+        position: relative;
+        z-index: 2; 
+      }
+      
+    }
+    .features_content_detail2 {
+      position: relative;
+      overflow: hidden;
+    
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0; /* Ẩn hình ảnh mặc định */
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        transform: scale(1.1); 
+        z-index: 1;
+      }
+      
+    
+      &:hover {
+        opacity: 1; 
+        transform: scale(1); 
+        background-image: url('../../assets/images/FeatureC.webp');
+        svg{
+          opacity: 0;
+        }
+        .content_detail{
+          opacity: 0;
+      
+        }
+        
+      }
+    
+      .contetn {
+        position: relative;
+        z-index: 2; 
+      }
+      
+    }
+    
+
+    
+  }
+}

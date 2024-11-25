@@ -1,0 +1,104 @@
+.hoverRunBottom {
+  position: relative;
+}
+
+.hoverRunBottom::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #00ccff; /* Adjust border color as needed */
+  transition: width 0.3s ease, height 0.75s ease; /* Added height transition */
+}
+
+.activeMenu::after {
+  width: 100%;
+  height: 2px;
+}
+
+.hoverRunBottom:hover::after {
+  width: 100%;
+  height: 2px;
+}
+
+.hoverBorderBottom {
+  position: relative;
+}
+
+.hoverBorderBottom::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #00ccff; /* Adjust border color as needed */
+}
+
+.hoverBorderBottom:hover::after {
+  width: 100%;
+  height: 1px;
+}
+
+.hoverArrow:hover {
+  background: rgba(48, 95, 172, 0.2);
+}
+.hoverLinkResource:hover {
+  background: linear-gradient(271deg, #76abdc -33.65%, #eef5ff 63.13%);
+}
+.hoverBanner:hover {
+  color: #ee3625;
+  background: #fcd7d3;
+}
+.hoverNewPart:hover {
+  background: #c8d7ef;
+}
+.hoverFAQ:hover {
+  color: #ee3625;
+  background: #fcd7d3;
+}
+.hoverBTNFooter:hover {
+  background: #c8d7ef;
+}
+
+.hoverFeatureService {
+  transition: all ease-in-out 0.5s;
+  background: linear-gradient(134deg, #76abdc -26.35%, #eef5ff 77.57%);
+  background-size: 400% 400%;
+  background-position: 100% 100%;
+}
+
+.hoverFeatureService:hover {
+  background-size: 100% 100%;
+  color: #305fac;
+}
+
+.hoverArrow:hover{
+  background: #305fac;
+  opacity: 0.2;
+}
+.hoverLinkResource:hover{
+  background: linear-gradient(271deg, #76ABDC -33.65%, #EEF5FF 63.13%);
+}
+.hoverBanner:hover{
+  color: #EE3625;
+  background: #FCD7D3;
+}
+.hoverNewPartBtn:hover{
+  background: #C8D7EF;
+}
+.hoverFAQ:hover {
+  color: #ee3625;
+  background: #fcd7d3;
+}
+.hoverBTNFooter:hover{
+  background: #C8D7EF;
+}
+.hoverSocialIcon:hover{
+  background: #ffffff33;
+  border: 1px solid #77ABDB;
+  
+}
+

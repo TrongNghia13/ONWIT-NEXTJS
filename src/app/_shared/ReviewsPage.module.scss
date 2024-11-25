@@ -1,0 +1,57 @@
+.wrapperReviewsPage {
+  :global {
+    .textGoogleReview {
+      display: flex;
+      align-items: center;
+    }
+
+    .reviewsCard {
+      border-radius: 24px;
+    }
+
+    .container {
+      position: relative;
+      overflow: hidden;
+      height: 100vh;
+    }
+
+    .scroll-up:nth-child(1) {
+      animation: 40s linear infinite scroll-up;
+    }
+
+    .scroll-up:nth-child(2) {
+      animation: 40s linear 4s infinite scroll-up;
+    }
+
+    @media screen and (max-width: 1280px) {
+      .scroll-horizontal:nth-child(1) {
+        animation: scroll-horizontal 20s linear infinite;
+      }
+
+      .scroll-horizontal:nth-child(2) {
+        animation: scroll-horizontal 20s linear 4s infinite;
+      }
+    }
+
+    .container:has(.scroll-up:in-view) .scroll-up {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+
+    .btnmore {
+      transition: all linear 0.5s;
+
+      &>span {
+        transition: all linear 0.5s;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &:hover>span {
+        padding-left: 8px;
+      }
+    }
+  }
+}

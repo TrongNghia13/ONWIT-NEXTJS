@@ -1,0 +1,25 @@
+.moduleWrapper {
+  :global {
+    .mobileMenuArea {
+      //height: calc(100vh - 152px);
+      //overflow: scroll;
+      //padding-bottom: 120px;
+    }
+    & .submenu-items {
+      position: absolute;
+      transform-origin: center;
+
+      &.active {
+        transition: opacity linear 1s;
+        opacity: 1;
+        transform: translateY(-68px);
+      }
+
+      &.unactive {
+        transition: all linear 1s;
+        opacity: 0;
+        transform: translateY(-100%);
+      }
+    }
+  }
+}

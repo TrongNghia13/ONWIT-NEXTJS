@@ -1,0 +1,12 @@
+.moduleWrapper {
+  button {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 8px;
+    border-radius: 0 16px 16px 0;
+  }
+}

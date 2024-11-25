@@ -1,0 +1,18 @@
+.moduleWrapper {
+  :global {
+    ::-webkit-scrollbar-track {
+      background: #77abdb; /* Màu nền */
+      border-radius: 100px;
+      opacity: 0.1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #305fac; /* Màu tay nắm */
+      border-radius: 100px; /* Bo góc */
+    }
+
+    ::-webkit-scrollbar {
+      width: 4px;
+    }
+  }
+}

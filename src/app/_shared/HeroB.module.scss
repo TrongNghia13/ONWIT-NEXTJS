@@ -1,0 +1,9 @@
+.moduleWrapper {
+  :global {
+    .bg--radial {
+      width: 1920px;
+      height: 540px;
+      background: radial-gradient(farthest-corner at 25% 0px, #305fac 0%, #76abdc 40%, #ffffff 100%);
+    }
+  }
+}

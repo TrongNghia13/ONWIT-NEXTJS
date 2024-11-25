@@ -1,0 +1,66 @@
+.btn {
+  display: flex;
+  padding: 12px 24px;
+  border-radius: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  text-wrap: nowrap;
+  max-width: 280px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.btn.btn--bgOrange {
+  background: linear-gradient(90deg, #f5867c 0%, #ee3625 100%);
+  color: white;
+}
+
+.btn.btn--bgWhite {
+  background: #fff;
+  color: #305fac;
+}
+
+.btn.btn--bgHoverOrange:hover {
+  color: #ee3625;
+  background: #fcd7d3;
+}
+
+.btn.btn--bgHoverBlue:hover {
+  color: #305fac;
+  background: #c8d7ef;
+}
+
+.btn:hover > div {
+  transition: all ease-in-out 0.3s;
+  padding-left: 16px;
+  padding-right: 0px;
+}
+
+.btn.btn--bgUp:hover {
+  background: linear-gradient(0deg, rgba(118, 171, 220, 0.4) 0%, rgba(118, 171, 220, 0.4) 100%), #fff;
+  color: #305fac;
+}
+.btnmore {
+  align-items: center;
+  display: flex;
+  transition: all linear 0.5s;
+  & > span {
+    align-items: center;
+    display: flex;
+  
+    transition: all linear 0.5s;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+  &:hover > span {
+    padding-left: 8px;
+  }
+}

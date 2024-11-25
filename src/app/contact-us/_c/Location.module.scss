@@ -1,0 +1,20 @@
+.wrapperLocationPage{
+    :global{
+        .tapQLD{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+        }
+        .tapQVIC{
+            border-radius: 100px;
+
+        }
+        .tapQuuote{
+            // width: 398px;
+            height: 49px;
+            border-radius: 100px;
+        }
+        
+    }
+}
